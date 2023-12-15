@@ -5,8 +5,6 @@ version = 3
 [[package]]
 name = "acme-micro"
 version = "0.12.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a18fb402a32ddc56ef7015df8d575c326ea911887ba9b7661ce18786282e89a3"
 dependencies = [
  "anyhow",
  "base64",
@@ -21,7 +19,7 @@ dependencies = [
 
 [[package]]
 name = "acme-redirect"
-version = "0.6.2"
+version = "0.6.2+frk9u2"
 dependencies = [
  "acme-micro",
  "actix-web",

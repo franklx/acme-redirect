@@ -1,0 +1,9 @@
+[env]
+OPENSSL_STATIC = "1"
+#OPENSSL_LIB_DIR="/usr/local/lib"
+#OPENSSL_INCLUDE_DIR="/usr/local/include/openssl"
+OPENSSL_LIB_DIR = { value = "../openssl", relative = true }
+OPENSSL_INCLUDE_DIR = { value = "../openssl/include", relative = true }
+
+[patch.crates-io]
+acme-micro = { path = "../acme-micro" }
