@@ -8,8 +8,10 @@ repository = "https://github.com/kpcyrd/acme-redirect"
 readme = "README.md"
 edition = "2018"
 
+publish = ["elleci"]
+
 [dependencies]
-acme-micro = "0.12"
+acme-micro = { registry = "elleci", version = "0.12" }
 actix-web = "4"
 anyhow = "1.0.28"
 clap = { version = "4.0.32", features = ["derive", "env"] }
