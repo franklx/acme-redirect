@@ -6,4 +6,4 @@ OPENSSL_LIB_DIR = { value = "../openssl", relative = true }
 OPENSSL_INCLUDE_DIR = { value = "../openssl/include", relative = true }
 
 [patch.crates-io]
-acme-micro = { path = "../acme-micro" }
+#acme-micro = { path = "../acme-micro" }

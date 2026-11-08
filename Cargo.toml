@@ -1,6 +1,6 @@
 [package]
 name = "acme-redirect"
-version = "0.8.2+frk9u5"
+version = "0.8.2+frk10u6"
 description = "Tiny http daemon that answers acme challenges and redirects everything else to https"
 authors = ["kpcyrd <git@rxv.cc>"]
 license = "GPL-3.0-or-later"
@@ -16,17 +16,17 @@ vendored = ["acme-micro/vendored"]
 [dependencies]
 acme-micro = { registry = "elleci", version = "0.14" }
 actix-web = { version = "4", default-features = false, features = ["macros", "unicode"] }
-anyhow = "1.0.28"
-clap = { version = "4.0.32", features = ["derive", "env"] }
-clap_complete = "4.0.7"
+anyhow = "1"
+clap = { version = "4", features = ["derive", "env"] }
+clap_complete = "4"
 colored = "3"
 config = { version = "0.15", default-features = false, features = ["toml"] }
 env_logger = "0.11"
-log = "0.4.8"
+log = "0.4"
 nix = { version = "0.31", features = ["fs", "user"] }
-pem = "3"
+pem = "4"
 rand = "0.10"
-serde = "1.0.106"
+serde = "1"
 serde_json = "1"
 time = { version = "0.3", features = ["formatting", "macros"] }
 toml = "1"
